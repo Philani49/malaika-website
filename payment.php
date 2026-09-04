@@ -1,0 +1,3 @@
+<?php
+require_once 'includes/config.php'; requireRole('Client'); $pageTitle='Payment'; require_once 'includes/header.php'; ?>
+<div class="container py-5"><div class="row justify-content-center"><div class="col-md-7"><div class="card border-0 shadow-sm"><div class="card-body p-4"><h2>Payment</h2><p>Your order and unpaid service bookings have been prepared for payment.</p><div class="alert alert-warning"><strong>Payment gateway not connected yet.</strong> This page is ready for PayFast, Ozow, Yoco, or another provider. Do not collect or store card details directly in this PHP application.</div><a class="btn btn-malaika" href="client/dashboard.php">Return to My Account</a></div></div></div></div></div><?php require_once 'includes/footer.php'; ?>
